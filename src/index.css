@@ -23,7 +23,7 @@
   --fluid-lg: clamp(1.5rem, 2vw + 0.8rem, 2.5rem);
   --fluid-xl: clamp(2.5rem, 5vw + 1rem, 5rem);
   --fluid-2xl: clamp(3.5rem, 7vw + 1rem, 8rem);
-  --fluid-3xl: clamp(5rem, 10vw + 1rem, 13rem);
+  --fluid-3xl: clamp(3.5rem, 8vw + 1rem, 10rem);
 }
 
 @layer base {

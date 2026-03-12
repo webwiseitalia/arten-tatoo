@@ -54,15 +54,15 @@ const artists = [
 
 // Each artist gets a UNIQUE layout
 const layouts = [
-  // Marco — image left massive, text right offset high
+  // Marco — image left, text right
   (artist, activeImg, setActiveImg) => (
-    <div className="relative flex flex-col lg:flex-row gap-6 lg:gap-0">
-      {/* Giant image — left, bleeds */}
-      <div className="lg:w-[55vw] lg:-ml-12 relative artist-img">
+    <div className="flex flex-col lg:flex-row gap-6 lg:gap-12 px-5 sm:px-8 lg:px-20 items-start">
+      {/* Image — left */}
+      <div className="lg:w-[55%] relative artist-img">
         <div className="aspect-[3/4] max-h-[75vh] overflow-hidden">
           <img src={artist.portfolio[activeImg]} alt={`Tatuaggio di ${artist.name}`} className="w-full h-full object-cover" loading="lazy" />
         </div>
-        <div className="flex gap-2 mt-4 ml-4">
+        <div className="flex gap-2 mt-4">
           {artist.portfolio.map((_, i) => (
             <button key={i} onClick={() => setActiveImg(i)}
               className={`h-[2px] transition-all duration-500 ${i === activeImg ? 'w-10 bg-[var(--gold)]' : 'w-4 bg-[var(--charcoal)] hover:bg-[var(--muted)]'}`}
@@ -70,8 +70,8 @@ const layouts = [
           ))}
         </div>
       </div>
-      {/* Text — floating right, offset up */}
-      <div className="lg:absolute lg:right-0 lg:top-[8vh] lg:w-[40vw] lg:max-w-lg px-5 sm:px-8 lg:px-12 artist-text" style={{ opacity: 0 }}>
+      {/* Text — right */}
+      <div className="lg:w-[45%] lg:pt-[8vh] artist-text" style={{ opacity: 0 }}>
         <span className="t-mono block mb-2">{artist.num}</span>
         <span className="t-label block mb-3">{artist.role}</span>
         <h3 className="t-subheading text-[var(--cream)] mb-6">{artist.name}</h3>
