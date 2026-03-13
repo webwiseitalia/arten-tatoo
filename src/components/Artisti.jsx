@@ -143,18 +143,18 @@ function ArtistMeta({ artist }) {
     <>
       <div className="flex flex-wrap gap-3 mb-5">
         {artist.styles.map((s) => (
-          <span key={s} className="px-3 py-1 border border-[var(--charcoal)] t-mono text-[10px] text-[var(--warm)]">{s}</span>
+          <span key={s} className="px-3 py-1 border border-[var(--charcoal)] t-mono text-[12px] text-[var(--warm)]">{s}</span>
         ))}
       </div>
       <div className="flex flex-wrap gap-4">
         <a href={`https://wa.me/${artist.whatsapp}?text=Ciao! Vorrei prenotare con ${artist.name.split(' ')[0]}.`}
           target="_blank" rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--gold)] text-[var(--black)] t-mono text-[10px] uppercase tracking-[0.12em] hover:bg-[var(--cream)] transition-colors duration-500">
+          className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--gold)] text-[var(--black)] t-mono text-[12px] uppercase tracking-[0.12em] hover:bg-[var(--cream)] transition-colors duration-500">
           Prenota con {artist.name.split(' ')[0]}
         </a>
         <a href={`https://www.instagram.com/${artist.instagram}/`}
           target="_blank" rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-3 border border-[var(--cream)]/20 text-[var(--cream)] t-mono text-[10px] uppercase tracking-[0.12em] hover:border-[var(--gold)] hover:text-[var(--gold)] transition-all duration-500">
+          className="inline-flex items-center gap-2 px-6 py-3 border border-[var(--cream)]/20 text-[var(--cream)] t-mono text-[12px] uppercase tracking-[0.12em] hover:border-[var(--gold)] hover:text-[var(--gold)] transition-all duration-500">
           @{artist.instagram}
         </a>
       </div>

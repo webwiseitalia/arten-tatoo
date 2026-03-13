@@ -17,7 +17,7 @@
   --sans: 'Inter', system-ui, sans-serif;
   --mono: 'Space Mono', monospace;
 
-  --fluid-xs: clamp(0.65rem, 0.5vw + 0.4rem, 0.75rem);
+  --fluid-xs: clamp(0.75rem, 0.5vw + 0.5rem, 0.875rem);
   --fluid-sm: clamp(0.8rem, 0.8vw + 0.5rem, 1rem);
   --fluid-base: clamp(1rem, 1vw + 0.6rem, 1.2rem);
   --fluid-lg: clamp(1.5rem, 2vw + 0.8rem, 2.5rem);

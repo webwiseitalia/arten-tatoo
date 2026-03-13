@@ -85,7 +85,7 @@ export default function Navbar() {
               className="block group"
             >
               <div className="flex items-baseline gap-4 py-3 border-b border-[var(--charcoal)]">
-                <span className="t-mono text-[10px] text-[var(--gold)]">{link.num}</span>
+                <span className="t-mono text-[12px] text-[var(--gold)]">{link.num}</span>
                 <span className="t-subheading text-[var(--cream)] group-hover:text-[var(--gold)] transition-colors duration-300">
                   {link.label}
                 </span>
@@ -99,7 +99,7 @@ export default function Navbar() {
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => setMenuOpen(false)}
-          className="inline-flex items-center gap-3 mt-10 px-8 py-4 bg-[var(--gold)] text-[var(--black)] t-mono text-[11px] uppercase tracking-[0.15em] w-fit"
+          className="inline-flex items-center gap-3 mt-10 px-8 py-4 bg-[var(--gold)] text-[var(--black)] t-mono text-[13px] uppercase tracking-[0.15em] w-fit"
         >
           Prenota ora
         </a>

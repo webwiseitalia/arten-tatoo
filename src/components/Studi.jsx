@@ -81,20 +81,20 @@ export default function Studi() {
             </div>
           </div>
           <div className="px-5 sm:px-8 lg:px-10 py-8 sm:py-10 space-y-4">
-            <span className="t-label text-[10px]">{studios[0].label}</span>
+            <span className="t-label text-[12px]">{studios[0].label}</span>
             <h3 className="text-[var(--cream)] text-[clamp(1.5rem,3vw,2.5rem)]" style={{ fontFamily: 'var(--serif)' }}>
               Studio di {studios[0].name}
             </h3>
-            <p className="t-mono text-[var(--gold)] text-[11px]">{studios[0].address}</p>
+            <p className="t-mono text-[var(--gold)] text-[13px]">{studios[0].address}</p>
             <p className="t-body text-sm">{studios[0].description}</p>
-            <p className="t-mono text-[11px]"><span className="text-[var(--gold)]">Artisti</span> — {studios[0].artists}</p>
+            <p className="t-mono text-[13px]"><span className="text-[var(--gold)]">Artisti</span> — {studios[0].artists}</p>
             <div className="flex flex-wrap gap-4 pt-4">
               <a href={studios[0].mapUrl} target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 border border-[var(--cream)]/20 t-mono text-[10px] text-[var(--cream)] uppercase tracking-[0.1em] hover:border-[var(--gold)] hover:text-[var(--gold)] transition-all duration-500">
+                className="inline-flex items-center gap-2 px-5 py-2.5 border border-[var(--cream)]/20 t-mono text-[12px] text-[var(--cream)] uppercase tracking-[0.1em] hover:border-[var(--gold)] hover:text-[var(--gold)] transition-all duration-500">
                 Indicazioni
               </a>
               <a href={`https://www.instagram.com/${studios[0].instagram}/`} target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 border border-[var(--cream)]/20 t-mono text-[10px] text-[var(--cream)] uppercase tracking-[0.1em] hover:border-[var(--gold)] hover:text-[var(--gold)] transition-all duration-500">
+                className="inline-flex items-center gap-2 px-5 py-2.5 border border-[var(--cream)]/20 t-mono text-[12px] text-[var(--cream)] uppercase tracking-[0.1em] hover:border-[var(--gold)] hover:text-[var(--gold)] transition-all duration-500">
                 @{studios[0].instagram}
               </a>
             </div>
@@ -119,20 +119,20 @@ export default function Studi() {
             </div>
           </div>
           <div className="px-5 sm:px-8 lg:px-10 py-8 sm:py-10 space-y-4">
-            <span className="t-label text-[10px]">{studios[1].label}</span>
+            <span className="t-label text-[12px]">{studios[1].label}</span>
             <h3 className="text-[var(--cream)] text-[clamp(1.5rem,3vw,2.2rem)]" style={{ fontFamily: 'var(--serif)' }}>
               Studio di {studios[1].name}
             </h3>
-            <p className="t-mono text-[var(--gold)] text-[11px]">{studios[1].address}</p>
+            <p className="t-mono text-[var(--gold)] text-[13px]">{studios[1].address}</p>
             <p className="t-body text-sm">{studios[1].description}</p>
-            <p className="t-mono text-[11px]"><span className="text-[var(--gold)]">Artista</span> — {studios[1].artists}</p>
+            <p className="t-mono text-[13px]"><span className="text-[var(--gold)]">Artista</span> — {studios[1].artists}</p>
             <div className="flex flex-wrap gap-4 pt-4">
               <a href={studios[1].mapUrl} target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 border border-[var(--cream)]/20 t-mono text-[10px] text-[var(--cream)] uppercase tracking-[0.1em] hover:border-[var(--gold)] hover:text-[var(--gold)] transition-all duration-500">
+                className="inline-flex items-center gap-2 px-5 py-2.5 border border-[var(--cream)]/20 t-mono text-[12px] text-[var(--cream)] uppercase tracking-[0.1em] hover:border-[var(--gold)] hover:text-[var(--gold)] transition-all duration-500">
                 Indicazioni
               </a>
               <a href={`https://www.instagram.com/${studios[1].instagram}/`} target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 border border-[var(--cream)]/20 t-mono text-[10px] text-[var(--cream)] uppercase tracking-[0.1em] hover:border-[var(--gold)] hover:text-[var(--gold)] transition-all duration-500">
+                className="inline-flex items-center gap-2 px-5 py-2.5 border border-[var(--cream)]/20 t-mono text-[12px] text-[var(--cream)] uppercase tracking-[0.1em] hover:border-[var(--gold)] hover:text-[var(--gold)] transition-all duration-500">
                 @{studios[1].instagram}
               </a>
             </div>

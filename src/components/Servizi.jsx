@@ -92,7 +92,7 @@ export default function Servizi() {
                   {service.num}
                 </span>
                 <div className="pt-2">
-                  <span className="t-mono text-[10px] block mb-1">{service.subtitle}</span>
+                  <span className="t-mono text-[12px] block mb-1">{service.subtitle}</span>
                   <h3 className="text-[var(--cream)] text-[clamp(1.8rem,4vw,3rem)] leading-[1.1]" style={{ fontFamily: 'var(--serif)' }}>
                     {service.title}
                   </h3>
@@ -111,7 +111,7 @@ export default function Servizi() {
                   ))}
                 </ul>
                 {service.styles && (
-                  <p className="t-mono text-[10px] text-[var(--muted)] pt-4 border-t border-[var(--charcoal)]/50">
+                  <p className="t-mono text-[12px] text-[var(--muted)] pt-4 border-t border-[var(--charcoal)]/50">
                     {service.styles}
                   </p>
                 )}

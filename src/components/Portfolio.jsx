@@ -98,7 +98,7 @@ export default function Portfolio() {
         <div className="flex gap-2 overflow-x-auto pb-2 no-scrollbar">
           {styleFilters.map((f) => (
             <button key={f} onClick={() => setActiveStyle(f)}
-              className={`shrink-0 px-4 py-2 t-mono text-[10px] uppercase tracking-[0.1em] transition-all duration-400 border ${
+              className={`shrink-0 px-4 py-2 t-mono text-[12px] uppercase tracking-[0.1em] transition-all duration-400 border ${
                 activeStyle === f
                   ? 'border-[var(--gold)] text-[var(--gold)] bg-[var(--gold)]/5'
                   : 'border-[var(--charcoal)] text-[var(--muted)] hover:text-[var(--warm)] hover:border-[var(--warm)]'
@@ -110,7 +110,7 @@ export default function Portfolio() {
         <div className="flex gap-2 overflow-x-auto pb-2 no-scrollbar">
           {artistFilters.map((f) => (
             <button key={f} onClick={() => setActiveArtist(f)}
-              className={`shrink-0 px-4 py-2 t-mono text-[10px] uppercase tracking-[0.1em] transition-all duration-400 border ${
+              className={`shrink-0 px-4 py-2 t-mono text-[12px] uppercase tracking-[0.1em] transition-all duration-400 border ${
                 activeArtist === f
                   ? 'border-[var(--gold)] text-[var(--gold)] bg-[var(--gold)]/5'
                   : 'border-[var(--charcoal)] text-[var(--muted)] hover:text-[var(--warm)] hover:border-[var(--warm)]'
@@ -138,7 +138,7 @@ export default function Portfolio() {
                   loading="lazy" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--black)]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
                 <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-400">
-                  <span className="t-mono text-[10px] text-[var(--gold)]">{work.style}</span>
+                  <span className="t-mono text-[12px] text-[var(--gold)]">{work.style}</span>
                   <p className="text-[var(--cream)] text-sm mt-0.5" style={{ fontFamily: 'var(--sans)' }}>{work.artist}</p>
                 </div>
               </div>
@@ -157,11 +157,11 @@ export default function Portfolio() {
       <div className="px-5 sm:px-8 md:px-12 lg:px-20 mt-[6vh] flex flex-wrap gap-6 items-center">
         <span className="t-body text-sm">Scopri di più su</span>
         <a href="https://www.instagram.com/arten_tattoo/" target="_blank" rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 t-mono text-[11px] text-[var(--cream)] hover:text-[var(--gold)] transition-colors duration-400">
+          className="inline-flex items-center gap-2 t-mono text-[13px] text-[var(--cream)] hover:text-[var(--gold)] transition-colors duration-400">
           @arten_tattoo
         </a>
         <a href="https://www.instagram.com/arten.catetattoo.sonico/" target="_blank" rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 t-mono text-[11px] text-[var(--cream)] hover:text-[var(--gold)] transition-colors duration-400">
+          className="inline-flex items-center gap-2 t-mono text-[13px] text-[var(--cream)] hover:text-[var(--gold)] transition-colors duration-400">
           @arten.catetattoo.sonico
         </a>
       </div>
@@ -184,9 +184,9 @@ export default function Portfolio() {
             <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 5l7 7-7 7" /></svg>
           </button>
           <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-3">
-            <span className="t-mono text-[10px] text-[var(--gold)]">{filtered[lightbox]?.style}</span>
+            <span className="t-mono text-[12px] text-[var(--gold)]">{filtered[lightbox]?.style}</span>
             <span className="text-[var(--muted)]">·</span>
-            <span className="t-mono text-[11px] text-[var(--warm)]">{filtered[lightbox]?.artist}</span>
+            <span className="t-mono text-[13px] text-[var(--warm)]">{filtered[lightbox]?.artist}</span>
           </div>
         </div>
       )}
